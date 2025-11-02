@@ -1,0 +1,27 @@
+Test git rev: e071caa116d07cdfff36ffec1cff33ba71d62c00
+PASS handlers/projects/workflows/local/node-build/lib/test/setup-project.test.js
+  setupProjects
+    ✓ creates files for single, root lib package (4 ms)
+
+-----------------------|---------|----------|---------|---------|--------------------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s              
+-----------------------|---------|----------|---------|---------|--------------------------------
+All files              |   71.02 |    57.03 |   42.22 |   70.68 |                                
+ node-build            |       0 |      100 |       0 |       0 |                                
+  add.mjs              |       0 |      100 |       0 |       0 | 1-107                          
+ node-build/lib        |   76.31 |    57.03 |   44.18 |   75.92 |                                
+  constants.mjs        |     100 |      100 |     100 |     100 |                                
+  search-for-index.mjs |      80 |       60 |   66.66 |   77.77 | 6-7                            
+  setup-builds.mjs     |   86.48 |       50 |   57.14 |   86.11 | 15-18,45,49                    
+  setup-data-files.mjs |      80 |    66.66 |      40 |   78.57 | 7-9                            
+  setup-js-files.mjs   |      80 |    66.66 |      40 |   78.57 | 7-9                            
+  setup-lint.mjs       |   80.95 |    63.63 |      40 |      80 | 10-14,32                       
+  setup-project.mjs    |   65.93 |       50 |    37.5 |   66.27 | 24-36,41,46,57-61,65,75-97,104 
+  setup-resources.mjs  |      85 |    72.72 |      40 |   84.21 | 9-14                           
+  setup-test.mjs       |   81.25 |    66.66 |      40 |      80 | 10-14                          
+-----------------------|---------|----------|---------|---------|--------------------------------
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.201 s, estimated 1 s
+Ran all test suites.
