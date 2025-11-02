@@ -37,7 +37,7 @@
   "dependencies": {
     "@liquid-labs/comply-defaults": "^1.0.0-alpha.8",
     "@liquid-labs/http-smart-response": "^1.0.0-alpha.3",
-    "@liquid-labs/npm-toolkit": "^1.0.0-alpha.17",
+    "@liquid-labs/npm-toolkit": "^1.0.0-alpha.20",
     "@liquid-labs/sdlc-lib-build": "^1.0.0-alpha.16",
     "@liquid-labs/sdlc-lib-makefiles": "^1.0.0-alpha.8",
     "http-errors": "^2.0.0",

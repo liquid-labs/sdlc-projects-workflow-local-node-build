@@ -50,7 +50,7 @@ const setupProject = async(options) => {
     // then we need to analyze things to figure out what kind of work to do
     let main
     try {
-      const pkgJSON = await getPackageJSON({ pkgDir : workingPkgRoot });
+      const pkgJSON = await getPackageJSON(workingPkgRoot);
       ({ main } = pkgJSON)
     }
     catch (e) {
